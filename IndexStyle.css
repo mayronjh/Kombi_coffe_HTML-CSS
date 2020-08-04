@@ -1,0 +1,131 @@
+   /* Body*/
+
+    IMG.displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    #Container{
+        width: 960px;
+        margin:0 auto;
+    }
+    .menu {
+        text-transform: uppercase;
+        display: block;
+        height: 40px;
+        background: #532D24;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .menu ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0 2.5em;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .menu ul li a:hover {
+        background: rgba(0, 0, 0, .3);
+    }
+    #banner_arredondado{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .hide {
+        display: none;
+    }
+    h1{
+        text-align: center;
+        font-family: "Franklin Gothic Medium";
+        font-size: 400%;
+        color: maroon;
+    }
+    h2{
+        font-family: "Franklin Gothic Medium";
+        color: maroon;
+    }
+    p{
+        font-family: "Franklin Gothic Medium";
+    }
+    #ball{
+        position: absolute;
+        background: rgba(83, 45, 36, 0.5);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 4%;
+        margin-top: -12%;
+    }
+    #ball2{
+        color: rgba(255, 255,255, 1);
+        font-family: "Franklin Gothic Medium";
+    }
+    article{
+        display: inline;
+        width: 50%;
+        float: left;
+        background-color: whitesmoke;
+    }
+    #picture{
+        float: left;
+    }
+    #figure{
+        float: left;
+    }
+    footer {
+        float: right;
+    }
+    /* CSS para o Link cardapio.html */
+    table#colun tr td {
+        background: white;
+        width: 100%;
+    }
+    #box{
+        text-align: left;
+    }
+    caption {
+        font-family: "Franklin Gothic Medium";
+        font-size: 2em;
+    }
+/*CSS para o link Local.html */
+
+    iframe{
+        width: 960px;
+        height: 330px;
+        border: 0;
+    }
+/*CSS para o link Eventos.html */
+
+    #img{
+     width: 400px;
+     height: 600px;
+     border: 10px;
+     background-color: maroon;
+     padding: 10px;
+    }
+    #photo{
+        width: 400px;
+        height: 600px;
+        border: 10px;
+        background-color: maroon;
+        padding: 10px;
+    }
+    h3{
+      text-align: center;
+      font-family: "Franklin Gothic Medium";
+      color: maroon;
+    }
+
